@@ -68,3 +68,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+Useful commands of git for noobie:
+
+1-- git init - first command in order to get started with git repository (creating directory .git where data of tech settings is saving)
+
+2 -- git status - helps to get info about all changes (some kind of observer of current project)
+
+3 -- git add "name of the file" - add a new file to a local repository in order to watch for this file
+
+3.1 -- git add . - add all files of the project
