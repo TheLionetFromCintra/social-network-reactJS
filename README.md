@@ -78,3 +78,29 @@ Useful commands of git for noobie:
 3 -- git add "name of the file" - add a new file to a local repository in order to watch for this file
 
 3.1 -- git add . - add all files of the project
+
+4 -- git rm --cached "name of the file" - stop to watch for the file
+
+5 -- git commit -m - save the current status of the project or after some changes. It helps to backup to earlier version of the project
+
+6 -- .gitignore - file that helps to hide some files or directories from git
+
+7 -- git branch - show all branches of the project and main branch
+
+7.1, 7.2 -- git branch "name of the file" - add a new branch; git branch -D "name of the branch" - delete a chosen branch
+
+7.3 -- git checkout "name of the branch" - switch to new branch
+
+7.4 -- git checkout -b "name of the branch" - add and switch to a new branch
+
+7.5 -- git merge "name of the branch" - merge two diffent branches
+
+8 -- git remote add origin "name of the url" - connect local git with github
+
+9 -- git push -u origin "name of the branch" - add a current version of the project on github
+
+10 -- git clone "name of the url with project" - copy project from github
+
+11 -- git pull - add all changes from local server
+
+git add . ----- git commit ----- git push
