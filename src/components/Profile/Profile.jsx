@@ -5,8 +5,8 @@ import s from './Profile.module.css';
 const Profile = () => {
     return (
 
-        <div className={s.content}>
-            <div className={s.contentImg}>
+        <div>
+            <div className={s.profileBgImg}>
                 <img src="https://widewp.ru/images/nature/1909.jpg" />
             </div>
             <div>

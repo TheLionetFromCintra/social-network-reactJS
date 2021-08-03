@@ -1,15 +1,10 @@
-.content {
-  grid-area: c;
-  background-color: cornflowerblue;
-}
-
-.contentImg {
+.profileBgImg {
   max-width: 1000px;
   width: 100%;
   height: 200px;
 }
 
-.contentImg img {
+.profileBgImg img {
   height: 100%;
   max-width: none;
   width: 100%;
