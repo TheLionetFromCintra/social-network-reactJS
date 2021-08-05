@@ -3,6 +3,14 @@ import s from './MyPosts.module.css';
 import Post from './Post/Post';
 
 const MyPosts = () => {
+
+    let posts = [
+        {id: 1, message: "Hi, how ya doing?", likesCount: 15},
+        {id: 2, message: "It is my first post!", likesCount: 20}
+    ];
+
+    let postsElements = posts.map(p => <Post message={p.message} likesCount={p.likesCount} />);
+
     return (
 
             <div className={s.postsWrapper}>
@@ -20,8 +28,7 @@ const MyPosts = () => {
                 </div>
 
                 <div className={s.posts}>
-                  <Post message='Hi, how ya doing?' likesCount='15' />
-                  <Post message='It is my first post!' likesCount='20' />
+                    {postsElements}
                 </div>
 
 
