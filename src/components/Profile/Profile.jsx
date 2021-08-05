@@ -1,17 +1,12 @@
 import React from 'react';
 import MyPosts from './MyPosts/MyPosts';
 import s from './Profile.module.css';
+import ProfileInfo from './ProfileInfo/ProfileInfo';
 
 const Profile = () => {
     return (
-
         <div>
-            <div className={s.profileBgImg}>
-                <img src="https://widewp.ru/images/nature/1909.jpg" />
-            </div>
-            <div>
-                ava + descrip
-            </div>
+            <ProfileInfo />
             <MyPosts />
         </div>
     );

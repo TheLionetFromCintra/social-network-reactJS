@@ -5,12 +5,18 @@ import Post from './Post/Post';
 const MyPosts = () => {
     return (
 
-            <div>
-                My Posts
+            <div className={s.postsWrapper}>
+                <h3>My Posts</h3>
 
                 <div>
-                    <textarea></textarea>
-                    <button>Add post</button>
+                    <div>
+                        <textarea></textarea>
+                    </div>
+
+                    <div>
+                        <button><span>Add post</span></button>
+                    </div>
+                    
                 </div>
 
                 <div className={s.posts}>
