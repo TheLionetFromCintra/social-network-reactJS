@@ -1,0 +1,26 @@
+.userPhoto {
+  width: 90px;
+  height: 90px;
+}
+
+.userPhoto img {
+  height: 100%;
+  max-width: none;
+  border-radius: 50%;
+}
+
+.wrapper {
+  display: flex;
+  padding: 15px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.btnWrapper {
+  margin-top: 5px;
+}
