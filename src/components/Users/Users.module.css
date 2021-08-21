@@ -24,3 +24,13 @@
 .btnWrapper {
   margin-top: 5px;
 }
+
+.selectedPage {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.paginationItem {
+  margin-right: 10px;
+  cursor: pointer;
+}
